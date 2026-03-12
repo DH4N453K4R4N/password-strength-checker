@@ -66,9 +66,9 @@ Enter your password:
 ```
 The tool will then show:
 
-• A strength rating
+- A strength rating
 
-• Suggestions to improve your password
+- Suggestions to improve your password
 
 ---
 
