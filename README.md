@@ -52,6 +52,7 @@ cd Password-Strength-Checker
 ```
 No external libraries or modules are required — the script uses Python’s built‑in re module.
 ---
+
 ▶️ Usage
 ---
 Run the script using Python:
@@ -67,8 +68,11 @@ The tool will then show:
 A strength rating
 
 Suggestions to improve your password
+
 ---
+
 📌 Example
+
 ---
 ```
 Enter your password: mypassword123
