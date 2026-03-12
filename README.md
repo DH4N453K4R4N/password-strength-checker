@@ -54,7 +54,7 @@ No external libraries or modules are required — the script uses Python’s bui
 
 ---
 
-▶️ Usage
+## ▶️ Usage
 
 Run the script using Python:
 ```
@@ -66,13 +66,13 @@ Enter your password:
 ```
 The tool will then show:
 
-A strength rating
+• A strength rating
 
-Suggestions to improve your password
+• Suggestions to improve your password
 
 ---
 
-📌 Example
+## 📌 Example
 
 ```
 Enter your password: mypassword123
