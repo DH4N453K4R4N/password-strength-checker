@@ -34,16 +34,23 @@ def password_strength(password):
     else:
         feedback.append("Add at least one special character (!@#$ etc).")
 
-    # Common passwords check (basic)
-    common_passwords = ["password", "123456", "qwerty", "letmein", "admin"]
-    if password.lower() in common_passwords:
+    # Common passwords check (using your provided list)
+    common_passwords = [
+        "123456", "admin", "12345678", "123456789", "12345",
+        "password", "Aa123456", "1234567890", "Pass@123",
+        "admin123", "1234567", "123123", "111111",
+        "12345678910", "P@ssw0rd", "Aa@123456", "admintelecom",
+        "Admin@123", "112233", "qwerty"
+    ]
+
+    if password.lower() in [p.lower() for p in common_passwords]:
         feedback.append("Avoid common passwords.")
-        score = min(score, 2)
+        score = min(score, 2)  # Penalize if password is common
 
     # Final evaluation
     if score <= 2:
         strength = "Weak"
-    elif score == 3 or score == 4:
+    elif score in [3, 4]:
         strength = "Moderate"
     else:
         strength = "Strong"
