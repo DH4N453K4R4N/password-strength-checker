@@ -51,7 +51,7 @@ git clone https://github.com/DH4N453K4R4N/Password-Strength-Checker.git
 cd Password-Strength-Checker
 ```
 No external libraries or modules are required — the script uses Python’s built‑in re module.
-
+---
 ▶️ Usage
 ---
 Run the script using Python:
@@ -69,6 +69,7 @@ A strength rating
 Suggestions to improve your password
 ---
 📌 Example
+---
 ```
 Enter your password: mypassword123
 Password Strength: Moderate
