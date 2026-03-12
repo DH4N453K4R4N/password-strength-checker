@@ -51,9 +51,9 @@ git clone https://github.com/DH4N453K4R4N/Password-Strength-Checker.git
 cd Password-Strength-Checker
 ```
 No external libraries or modules are required — the script uses Python’s built‑in re module.
----
-▶️ Usage
 
+▶️ Usage
+---
 Run the script using Python:
 ```
 python Password_Strength_Checker.py
